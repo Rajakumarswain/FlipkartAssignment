@@ -121,7 +121,6 @@ public class FlipkartTest {
 				driver.findElement(By.xpath("//button[text()='Yes']")).click();
 			}
 		}
-		// switch to the parent window
 		driver.switchTo().window(parent);
 		driver.findElement(By.xpath("//button[@class='_2KpZ6l _2ObVJD _3AWRsL']")).click();
 		System.out.println("Order placed successfully");
